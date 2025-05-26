@@ -1,0 +1,82 @@
+/* ===== General Body ===== */
+body {
+    background-color: #f5f8fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* ===== Cards ===== */
+  .card {
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border: none;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* ===== Dashboard Heading ===== */
+  h1.h3 {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* ===== Icons ===== */
+  .card .fa-2x {
+    background-color: #ecf0f1;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* ===== Students Color Card ===== */
+  .card .text-info {
+    color: #1abc9c !important;
+  }
+  
+  /* ===== Classes Color ===== */
+  .card .text-primary {
+    color: #2980b9 !important;
+  }
+  
+  /* ===== Class Arms Color ===== */
+  .card .text-success {
+    color: #27ae60 !important;
+  }
+  
+  /* ===== Attendance Color ===== */
+  .card .text-warning {
+    color: #f39c12 !important;
+  }
+  
+  /* ===== Breadcrumbs ===== */
+  .breadcrumb-item a {
+    color: #3498db;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .breadcrumb-item.active {
+    color: #7f8c8d;
+  }
+  
+  /* ===== Scroll to Top ===== */
+  .scroll-to-top {
+    background-color: #3498db;
+  }
+  .scroll-to-top:hover {
+    background-color: #2980b9;
+  }
+  
+  /* ===== Font size tweak for small screens ===== */
+  @media (max-width: 768px) {
+    .card .h5 {
+      font-size: 18px;
+    }
+    .card .fa-2x {
+      font-size: 20px;
+    }
+  }
+  
